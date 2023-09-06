@@ -51,6 +51,12 @@ coverage.xml
 .pytest_cache/
 cover/
 
+# Keys
+secret/
+
+#hugging face models
+qa_nlp_model/
+
 # Translations
 *.mo
 *.pot
