@@ -30,8 +30,8 @@ This project demonstrates Question Answering (QA) with Fine-Tuning using the Sta
 
 ## Fine-tuning
 
--Use the fine-tuning.ipynb notebook to fine-tune your transformer-based model on the custom SQuAD dataset.
--You can modify hyperparameters and experiment with different models.
+- Use the fine-tuning.ipynb notebook to fine-tune your transformer-based model on the custom SQuAD dataset.
+- You can modify hyperparameters and experiment with different models.
 
 
 
