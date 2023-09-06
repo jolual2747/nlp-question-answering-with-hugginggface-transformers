@@ -1,7 +1,5 @@
-# nlp-question-answering-with-hugginggface-transformers
+# NLP Question Answering with Fine-Tuning Project
 NLP question answering fine tuning Hugging Face's transformers
-
-# Question Answering with Fine-Tuning Project
 
 ## Overview
 
