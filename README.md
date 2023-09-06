@@ -12,7 +12,6 @@ This project demonstrates Question Answering (QA) with Fine-Tuning using the Sta
 - [Setup](#setup)
 - [Fine-Tuning](#fine-tuning)
 - [Inference](#inference)
-- [Evaluation](#evaluation)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
@@ -25,13 +24,39 @@ This project demonstrates Question Answering (QA) with Fine-Tuning using the Sta
    ```bash
    git clone https://github.com/your-username/qa-fine-tuning-project.git
    cd qa-fine-tuning-project
-   pip install -r requirements.txt
    ```
+
+2. Install dependecies:
+
+```bash
+    pip install -r requirements.txt
+```
 
 ## Fine-tuning
 
 - Use the fine-tuning.ipynb notebook to fine-tune your transformer-based model on the custom SQuAD dataset.
 - You can modify hyperparameters and experiment with different models.
+
+## Inference
+
+Use the inference API from transformers:
+
+```python
+# Use a pipeline as a high-level helper
+from transformers import pipeline
+
+pipe = pipeline("question-answering", model="jolual2747/qa_nlp_model")
+```
+
+## Results
+See Hugging Face model card [here.](https://www.openai.com/)
+
+
+## Contributing
+Contributions are welcome! If you have suggestions or improvements, please create an issue or a pull request.
+
+## License
+This project is licensed under the Apache 2.0 License.
 
 
 
