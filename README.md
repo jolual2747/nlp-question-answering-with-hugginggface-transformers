@@ -49,7 +49,7 @@ pipe = pipeline("question-answering", model="jolual2747/qa_nlp_model")
 ```
 
 ## Results
-See Hugging Face model card [here.](https://www.openai.com/)
+See Hugging Face model card [here.](https://huggingface.co/jolual2747/qa_nlp_model)
 
 
 ## Contributing
